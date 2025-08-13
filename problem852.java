@@ -17,7 +17,7 @@ public class problem852 {
 
       if(arr[mid]>arr[mid+1]){ 
         end = mid;
-         //descending part
+         //descending partc
 
       }
       else{
