@@ -5,7 +5,7 @@ public class problem1095 {
 
   public static void main(String[] args)
   {
-    int[] arr = {0,1,2,4,2,1};
+    int[] arr = {1,2,3,4,5,3,1};
     int target = 3; 
 
     System.out.println(ansReturn(arr,target));
@@ -27,6 +27,12 @@ public class problem1095 {
       return binarySearch(arr, target,peak+1,arr.length-1);
 
     }
+
+
+
+
+
+
 
   }
 
