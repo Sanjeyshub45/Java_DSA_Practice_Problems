@@ -24,7 +24,7 @@ public class problem33 {
     }
       // if target lies in left sorted part
     if(target>=arr[0]){
-      return binarySearch(arr, target, 0, pivot-1)
+      return binarySearch(arr, target, 0, pivot-1);
 
     }
      // else, in right part
