@@ -1,10 +1,8 @@
-
 import java.util.HashMap;
-
 public class problem1{
     public static void main(String[] args) {
         int[] nums = {2,7,11,15};
-        int target = 9;
+        int target = 9;    
         int[] ans =twoSum(nums, target);
         System.out.println(ans[0]+ " " +ans[1]);
 
