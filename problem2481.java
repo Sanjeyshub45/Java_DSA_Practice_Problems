@@ -1,6 +1,6 @@
 public class problem2481 {
     public static void main(String[] args) {
-        int n = 3;
+        int n = 1;
         int ans = numberOfCuts(n);
         System.out.println(ans);
         
@@ -10,14 +10,10 @@ public class problem2481 {
         if(n==1){
             return 0;
         }
+        return (n%2==0) ? n/2 : n ;
 
-        else if(n%2==0){
-            return n/2;
-        }
-        else{
-            return n;
-        }
-        
+
+       
         
     }
     

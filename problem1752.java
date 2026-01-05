@@ -30,10 +30,10 @@ public class problem1752 {
 
         }
 
-        if (violation==0){
+        // if (violation==0){
         
-            return true;
-        }
+        //     return true;
+        // }
 
       return false;
 
